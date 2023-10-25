@@ -19,9 +19,10 @@ public class Variables : MonoBehaviour
     {
         
     }
-    int. MultiplyByTwo(int number)
-
+    int MultiplyByTwo(int number)
+    {
         int result;
-    result = number * 2;
-        return result; 
+        result = number * 2;
+        return result;
+    }
 }
